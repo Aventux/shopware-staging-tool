@@ -40,7 +40,7 @@ More info: [https://github.com/shopware/shopware-cli](https://github.com/shopwar
 
 ## :pencil: Configuration
 
-Edit the top of the `create-staging.sh` file to match your environment:
+Edit the top of the `setup-staging-env.sh` file to match your environment:
 
 ```bash
 LIVE_DB_HOST="localhost"
@@ -48,6 +48,9 @@ LIVE_DB_USER="root"
 LIVE_DB_PASS="root"
 LIVE_DB_NAME="sw669"
 
+STAGING_DB_HOST="localhost"
+STAGING_DB_USER="root"
+STAGING_DB_PASS="root"
 STAGING_DB_NAME="sw669_staging"
 
 LIVE_PATH="/path/to/your/live-shop"
