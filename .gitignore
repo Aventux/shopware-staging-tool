@@ -1,0 +1,6 @@
+# PhpStorm / JetBrains IDE
+.idea/
+*.iml
+
+# Sql Files
+*.sql
